@@ -1,10 +1,10 @@
 class FindSkill < Formula
   include Language::Python::Virtualenv
 
-  desc "Multi-agent skill discovery — search 4800+ skills from 14 sources for Claude Code, Codex, OpenCode, Cursor"
+  desc "Search 4800+ AI skills for Claude Code, Codex, OpenCode, Cursor"
   homepage "https://github.com/fockus/claude-skill-find-skill"
-  url "https://github.com/fockus/claude-skill-find-skill/archive/refs/tags/v1.0.0.tar.gz"
-  sha256 "0f59860559572c783316889f005885db4e89e5a01e56777e2114f81553a818df"
+  url "https://files.pythonhosted.org/packages/8d/04/3dd26ebd9a9b5993b28fb932fcf205d1eec2bf7bd042c910be1e0b94d7ab/find_skill-1.0.1.tar.gz"
+  sha256 "396dca4d5f6c51b61fe8eded048b321a9f4a15dc0aea0067684cb892379360de"
   license "MIT"
   head "https://github.com/fockus/claude-skill-find-skill.git", branch: "main"
 
@@ -15,6 +15,6 @@ class FindSkill < Formula
   end
 
   test do
-    assert_match "find-skill 1.0.0", shell_output("#{bin}/find-skill version")
+    assert_match "find-skill 1.0.1", shell_output("#{bin}/find-skill version")
   end
 end
