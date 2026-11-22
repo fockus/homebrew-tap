@@ -4,8 +4,8 @@ class MemoryBank < Formula
   desc "Long-term project memory for AI coding agents (Claude Code, Cursor, etc.)"
   homepage "https://github.com/fockus/skill-memory-bank"
   # url/sha256 updated after each release (brew bump-formula-pr or manual)
-  url "https://files.pythonhosted.org/packages/b7/a7/34fe30d1f21eadb614b583bc3dc0f8790f9cf00f43bc3ff803f8a69fdf99/memory_bank_skill-5.4.1.tar.gz"
-  sha256 "2f8e706b549f6aaa49be72d6815c7dca26e239f1bd636d81e0cc41e69a3a52b9"
+  url "https://files.pythonhosted.org/packages/7a/db/4fbfc677fe3bf2d62004b529e873512f9ab9644ab90663ac2e10cac5978a/memory_bank_skill-5.4.2.tar.gz"
+  sha256 "5775f0f8146dfd2e9d3e2cf9431aa48be45a1a552ccaf9fc1237b11c005112c1"
   license "MIT"
   head "https://github.com/fockus/skill-memory-bank.git", branch: "main"
 
